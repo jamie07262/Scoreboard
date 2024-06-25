@@ -1,0 +1,65 @@
+body {
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    background: rgba(1, 31, 43, 0.71);
+    background: url("https://media.istockphoto.com/id/1486809290/photo/basketball-on-a-black-background-panorama-or-free-space.jpg?s=612x612&w=0&k=20&c=0TlluJQCGTTiJUdMrga8OZAPl52QOzb7QSnAZL16rIk=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    margin-top: 4.8%;
+}
+
+h3{
+    font-family: 'Verdana';
+}
+
+.container {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;;
+    text-align: center;
+    position: absolute;
+    width: 50%;       
+    height: 80%;      
+    left: 25%;       
+    top: 10% ;
+    box-sizing: border-box;
+}
+
+p{
+    font-family: 'Cursed Timer ULiL';
+    font-size: 8vw;
+    background-color: #141414;
+    width: 190px;
+    height: auto;
+    text-align:center;
+    color: rgba(243, 15, 15, 0.744);
+    padding: 2rem;
+    border-radius: 0.5pc;
+    margin: 2vw auto;
+}
+
+button{
+    cursor: pointer;
+}
+
+.guest, .home {
+    position:-webkit-sticky;
+    width: 35px;
+    height: 26px;
+    left: 89px;
+    top: 280px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 15%;
+}
+
